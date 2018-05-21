@@ -7,7 +7,6 @@ app.get('/', ( req, res, next ) => {
         ok: true,
         mensaje: 'Peticion finalizada correctamente.'
     });
-    // res.send('Exito');
 });
 
 module.exports = app;
